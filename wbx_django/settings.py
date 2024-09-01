@@ -23,8 +23,8 @@ SECRET_KEY = 'django-insecure-ysx@u79)b-68^-r3uxquqsuze9m1srittky*wmhq5kqc2+h*qq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*', 'www.netwbx.ru', 'netwbx.ru', '92.118.113.146']
-CSRF_TRUSTED_ORIGINS = ['https://netwbx.ru/*', '*']
+ALLOWED_HOSTS = ['hermandevescobat-wbx-django-d31c.twc1.net', 'www.hermandevescobat-wbx-django-d31c.twc1.net', '82.97.252.98']
+CSRF_TRUSTED_ORIGINS = ['https://hermandevescobat-wbx-django-d31c.twc1.net/*']
 
 # Application definition
 
