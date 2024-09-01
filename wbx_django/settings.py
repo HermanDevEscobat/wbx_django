@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'wbx_prj.urls'
+ROOT_URLCONF = 'wbx_django.urls'
 
 TEMPLATES = [
     {
@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'wbx_prj.wsgi.application'
+WSGI_APPLICATION = 'wbx_django.wsgi.application'
 
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
