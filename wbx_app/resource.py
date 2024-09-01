@@ -1,0 +1,1 @@
+# app/resource.pyfrom import_export import resourcesfrom .models import Category, User, Lotclass CategoryResource(resources.ModelResource):    class Meta:        model = Categoryclass UserResource(resources.ModelResource):    class Meta:        model = Userclass LotResource(resources.ModelResource):    class Meta:        model = Lot
