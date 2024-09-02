@@ -2,3 +2,4 @@ django-import-export
 djangorestframework
 markdown
 django-filter
+psycopg2
