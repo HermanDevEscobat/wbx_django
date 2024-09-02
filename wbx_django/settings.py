@@ -24,8 +24,8 @@ SECRET_KEY = 'django-insecure-ysx@u79)b-68^-r3uxquqsuze9m1srittky*wmhq5kqc2+h*qq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['hermandevescobat-wbx-django-d31c.twc1.net', 'www.hermandevescobat-wbx-django-d31c.twc1.net', '82.97.252.98']
-CSRF_TRUSTED_ORIGINS = ['https://hermandevescobat-wbx-django-d31c.twc1.net/*']
+ALLOWED_HOSTS = ['hermandevescobat-wbx-django-46de.twc1.net', 'www.hermandevescobat-wbx-django-d31c.twc1.net', '185.192.247.228']
+CSRF_TRUSTED_ORIGINS = ['https://hermandevescobat-wbx-django-46de.twc1.net//*']
 
 # Application definition
 
