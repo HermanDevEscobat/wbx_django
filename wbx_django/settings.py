@@ -9,6 +9,7 @@ https://docs.djangoproject.com/en/5.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -87,11 +88,11 @@ REST_FRAMEWORK = {
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "pg_wbx",
-        "USER": "herman",
-        "PASSWORD": "|$ip4vBZ5qgnJX",
-        "HOST": "192.168.0.4",
-        "PORT": "5432",
+        "NAME": f"{os.getenv('POSTGRESQL_DBNAME')}",
+        "USER": f"{os.getenv('POSTGRESQL_USER')}",
+        "PASSWORD": f"{os.getenv('POSTGRESQL_PASSWORD')}",
+        "HOST": f"{os.getenv('POSTGRESQL_HOST')}",
+        "PORT": f"{os.getenv('POSTGRESQL_PORT')}",
     }
 }
 
