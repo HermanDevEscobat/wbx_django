@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-ysx@u79)b-68^-r3uxquqsuze9m1srittky*wmhq5kqc2+h*qq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['hermandevescobat-wbx-django-46de.twc1.net', 'www.hermandevescobat-wbx-django-d31c.twc1.net', '185.192.247.228']
 CSRF_TRUSTED_ORIGINS = ['https://hermandevescobat-wbx-django-46de.twc1.net//*']
@@ -128,12 +128,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_ROOT = "/static/"
-STATIC_URL = "static/"
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-    "/var/www/static/",
-]
+STATIC_URL = 'static/'
+STATIC_ROOT = 'static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
