@@ -128,7 +128,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = 'https://s3.timeweb.cloud/8c7cdb79-a2cb840a-e13f-4980-8753-34956786f437/static/'
 STATIC_ROOT = 'static/'
 
 # Default primary key field type
